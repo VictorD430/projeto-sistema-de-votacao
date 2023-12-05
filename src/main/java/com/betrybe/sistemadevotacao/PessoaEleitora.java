@@ -6,7 +6,9 @@ package com.betrybe.sistemadevotacao;
 public class PessoaEleitora extends Pessoa {
   private String cpf;
 
-  public PessoaEleitora() {
+  public PessoaEleitora(String nome, String cpf) {
+    setNome(nome);
+    this.cpf = cpf;
   }
 
   public String getCpf() {
